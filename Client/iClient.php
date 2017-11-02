@@ -4,7 +4,7 @@ namespace smsClient\Client;
 
 interface iClient {
 
-    const TIMEOUT = 1;
+    const TIMEOUT = 3;
 
     /**
      * @param string $requestType тип запроса
