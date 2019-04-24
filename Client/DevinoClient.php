@@ -15,7 +15,7 @@ class DevinoClient implements \SmsClient\Client\iClient {
     /**
      * @var string базовый адрес для отправки запросов
      */
-    private $baseUrl = 'https://integrationapi.net/rest/{method}';
+    private $baseUrl = 'http://integrationapi.net/rest/{method}';
 
     /**
      *
